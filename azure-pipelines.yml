@@ -19,6 +19,12 @@ steps:
     SonarCloud: 'sonar'
     organization: 'mhadzimehanovic'
     scannerMode: 'Other'
+    extraProperties: |
+      # Additional properties that will be passed to the scanner,
+      # Put one key=value per line, example:
+      # sonar.exclusions=**/*.bin
+      sonar.projectKey=mhadzimehanovic_azure-vote
+      sonar.projectName=azure-vote
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
