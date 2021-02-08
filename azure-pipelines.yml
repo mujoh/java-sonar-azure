@@ -20,14 +20,8 @@ steps:
 - task: SonarCloudPrepare@1
   inputs:
     SonarCloud: 'sonar'
-    organization: 'mhadzimehanovic0739'
+    organization: 'mhadzimehanovic123'
     scannerMode: 'Other'
-    extraProperties: |
-      # Additional properties that will be passed to the scanner, 
-      # Put one key=value per line, example:
-      # sonar.exclusions=**/*.bin
-      sonar.projectKey=mhadzimehanovic0739_sonar
-      sonar.projectName=sonar
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
