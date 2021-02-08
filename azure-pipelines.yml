@@ -25,6 +25,7 @@ steps:
       # sonar.exclusions=**/*.bin
       sonar.projectKey=mhadzimehanovic_sonar-test
       sonar.projectName=sonar-test
+      sonar.pullrequest.provider=GitHub
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
