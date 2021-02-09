@@ -7,6 +7,6 @@ public class Demo {
             return;
         }
 
-        System.out.println("I am not covered demo branch");
+        System.out.println("I am not covered and testing");
     }
 }
