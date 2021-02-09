@@ -1,7 +1,7 @@
 # SonarCloud integration with Github and Azure DevOps
 
 This is sample Java code forked from Microsoft integrated with Azure DevOps CI tool and SonarCloud. After maven clean install is done,
-code is scanned by SonarCloud and analysis is sent to https://sonarcloud.io
+code is scanned by SonarCloud and analysis is sent to https://sonarcloud.io.
 
 It is really important to have:
 1. SonarCloud app on Github
