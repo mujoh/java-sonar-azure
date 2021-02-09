@@ -1,3 +1,16 @@
+# SonarCloud integration with Github and Azure DevOps
+
+This is sample Java code forked from Microsoft integrated with Azure DevOps CI tool and SonarCloud. After maven clean install is done,
+code is scanned by SonarCloud and analysis is sent to https://sonarcloud.io
+
+It is really important to have:
+1. SonarCloud app on Github
+2. Azure Pipelines app on Github
+3. SonarCloud service connection on Azure DevOps with token generated when creating app on SonarCloud
+
+Project Key on SonarCloud should be set as follows: groupId:artifactId from pom.xml.
+
+Azure Devops Pipeline is set to trigger on every Pull Request.
 
 # Contributing
 
