@@ -8,7 +8,7 @@ It is really important to have:
 2. Azure Pipelines app on Github
 3. SonarCloud service connection on Azure DevOps with token generated when creating app on SonarCloud
 
-Project Key on SonarCloud should be set as follows: `groupId`:`artifactId` from `pom.xml`.
+Project Key on SonarCloud should be set as follows: `groupId:artifactId` from `pom.xml`.
 
 Azure Devops Pipeline is set to trigger on every Pull Request.
 
