@@ -26,7 +26,7 @@ steps:
       # Additional properties that will be passed to the scanner, 
       # Put one key=value per line, example:
       # sonar.exclusions=**/*.bin
-      sonar.branch.name=master
+      sonar.branch.name=$(Build.SourceBranch)
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
